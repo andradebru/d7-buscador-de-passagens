@@ -1,3 +1,7 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 .header-menu {
   box-sizing: border-box;
   height: 60px;
@@ -13,6 +17,19 @@
   color: #ff0778;
   text-transform: capitalize;
   font-weight: 700px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 28px;
+  width: 90%;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
 }
 
 .container {
