@@ -68,7 +68,7 @@ input {
 
 body {
   background-attachment: fixed;
-  background-size: 180%;
+  background-size: 170%;
   background-position: bottom;
   background-repeat: no-repeat;
   background-color: #ff0778;
@@ -82,6 +82,23 @@ body {
   border-radius: 8px;
   font-size: 16px;
   border: 1px solid #727272;
+}
+
+.footer-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #fff;
+  /* fixa o footer la embaixo */
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-icon {
+  width: 50px;
+  height: 50px;
 }
 
 /* mobile maxwidth 767 */
