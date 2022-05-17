@@ -17,6 +17,10 @@ body {
   align-items: center;
 }
 
+.img-logo {
+  height: 25px;
+}
+
 .entrar-btn {
   text-decoration: none;
   color: #ff0778;
