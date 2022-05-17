@@ -91,6 +91,7 @@ body {
   padding: 10px;
   border-radius: 8px;
   font-size: 16px;
+  font-weight: 700;
   border: 1px solid #727272;
 }
 
@@ -120,16 +121,17 @@ body {
   text-decoration: none;
   color: #545454;
 }
- 
+
 @media (min-width: 467px) {
   body {
     background-size: 180%;
-    background-position-y: 100%;
-}
+    background-position-y: 90%;
+  }
 
-@media (min-width: 1000px) {
-  body {
-    background-size: 100%;
-    background-position-y: 82%;
+  @media (min-width: 776px) {
+    body {
+      background-size: 120%;
+      background-position-y: 82%;
+    }
   }
 }
